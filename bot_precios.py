@@ -7,7 +7,7 @@ from telegram import Bot
 
 import os
 
-TOKEN = os.getenv["8317818913:AAGe8JbLfFFDucXBDGWMwapmh2Ly6FGE4b4"]
+TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv["1134808904"]
 
 
@@ -70,5 +70,6 @@ import time
 
 if __name__ == "__main__":
         asyncio.run(main())
+
 
 
