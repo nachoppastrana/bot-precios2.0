@@ -7,8 +7,8 @@ from telegram import Bot
 
 import os
 
-TOKEN = os.environ["8317818913:AAGe8JbLfFFDucXBDGWMwapmh2Ly6FGE4b4"]
-CHAT_ID = os.environ["1134808904"]
+TOKEN = os.getenv["8317818913:AAGe8JbLfFFDucXBDGWMwapmh2Ly6FGE4b4"]
+CHAT_ID = os.getenv["1134808904"]
 
 
 URL = "https://listado.mercadolibre.com.ar/zapatillas-adidas"
@@ -70,4 +70,5 @@ import time
 
 if __name__ == "__main__":
         asyncio.run(main())
+
 
